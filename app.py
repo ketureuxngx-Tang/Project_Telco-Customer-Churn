@@ -118,4 +118,4 @@ if submitted:
     # ซ่อนรายละเอียด Threshold ไว้เพื่อไม่ให้หน้าจอดูรก
     with st.expander("ℹ️ รายละเอียดเชิงเทคนิค (Technical Details)"):
         st.caption(f"**Decision Threshold:** `{threshold:.3f}` (ตั้งค่าสำหรับ ~80% Recall)")
-        st.caption("ระบบจะทำนายว่าเป็น Churn เมื่อความน่าจะเป็นมีค่ามากกว่าหรือเท่ากับ Threshold")
+        st.caption("ระบบจะทำนายว่าเป็น Churn เมื่อความน่าจะเป็นมีค่ามากกว่าหรือเท่ากับ Threshold
